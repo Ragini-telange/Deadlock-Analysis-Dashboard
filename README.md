@@ -1,16 +1,14 @@
-# Deadlock Control Room (OS IA Activity 2)
-
-   
+<div align="center">
 
 # 🚦 Deadlock Control Room
 
 ### Deadlock Analysis and Resource Allocation Dashboard
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/](https://deadlock-analysis-dashboard-rqkggm79tiulhdinnobnyb.streamlit.app/)
+[![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Tests](https://img.shields.io/badge/pytest-14%20passing-1E8E5A?logo=pytest&logoColor=white)](test_logic.py)
 [![Course](https://img.shields.io/badge/Course-Operating%20Systems-14293D)](#)
-[![Live App](https://img.shields.io/badge/🌐%20Live%20App-Open-F2B705)](https://deadlock-analysis-dashboard-rqkggm79tiulhdinnobnyb.streamlit.app/)
+[![Live App](https://img.shields.io/badge/🌐%20Live%20App-Open-F2B705)](https://YOUR-APP-NAME.streamlit.app)
 
 **An interactive signal-box style dashboard that shows how an operating system handles deadlock:**
 **Prevention 🛡️ · Avoidance 🏦 · Detection 🔍 · Recovery 🔧**
@@ -23,11 +21,11 @@
 
 ## ⚡ Quick Links
 
-- 🌐 **Live Web App:** [Open the dashboard]([https://YOUR-APP-NAME.streamlit.app](https://deadlock-analysis-dashboard-rqkggm79tiulhdinnobnyb.streamlit.app/)) *(replace with your deployed link)*
+- 🌐 **Live Web App:** [Open the dashboard](https://YOUR-APP-NAME.streamlit.app) *(replace with your deployed link)*
 - 📄 **Source Code:** [GitHub Repository](https://github.com/Ragini-telange/Deadlock-Analysis-Dashboard)
 - 🧪 **Test Suite:** 14 passing tests (`python -m pytest -v`)
 - 🤖 **AI Usage Record:** [AI_USAGE_RECORD.md](AI_USAGE_RECORD.md)
-- 👥 **Group**:**Ragini Telange,Vedangi Patil,Sakshi Pawar**
+- 👥 **Group:** *add member names here*
 
 ---
 
