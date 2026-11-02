@@ -21,7 +21,7 @@
 
 ## ⚡ Quick Links
 
-- 🌐 **Live Web App:** [Open the dashboard](https://YOUR-APP-NAME.streamlit.app) *(replace with your deployed link)*
+- 🌐 **Live Web App:** [Open the dashboard](https://deadlock-analysis-dashboard-rqkggm79tiulhdinnobnyb.streamlit.app/) *(replace with your deployed link)*
 - 📄 **Source Code:** [GitHub Repository](https://github.com/Ragini-telange/Deadlock-Analysis-Dashboard)
 - 🧪 **Test Suite:** 14 passing tests (`python -m pytest -v`)
 - 🤖 **AI Usage Record:** [AI_USAGE_RECORD.md](AI_USAGE_RECORD.md)
