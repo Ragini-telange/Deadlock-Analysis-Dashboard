@@ -27,7 +27,7 @@
 - 📄 **Source Code:** [GitHub Repository](https://github.com/Ragini-telange/Deadlock-Analysis-Dashboard)
 - 🧪 **Test Suite:** 14 passing tests (`python -m pytest -v`)
 - 🤖 **AI Usage Record:** [AI_USAGE_RECORD.md](AI_USAGE_RECORD.md)
-- 👥 **Group:**Ragini Telange,Vedangi Patil,Sakshi Pawar**
+- 👥 **Group**:**Ragini Telange,Vedangi Patil,Sakshi Pawar**
 
 ---
 
