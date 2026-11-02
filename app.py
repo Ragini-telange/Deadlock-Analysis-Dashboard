@@ -670,4 +670,5 @@ with st.sidebar:
     st.markdown("### Deadlock Control Room")
     choice = st.radio("Go to", list(PAGES), label_visibility="collapsed")
     st.caption("Avoidance, detection and prevention/recovery are separate tools on purpose.")
+    ui.team_members_sidebar()
 PAGES[choice]()

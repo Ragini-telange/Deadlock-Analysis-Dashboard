@@ -85,6 +85,59 @@ h4 { font-size:1.3rem !important; }
 .vu { background:#FDF0DC; border:2px solid #E07B00; flex:2; min-width:260px; }
 .vd { background:#FBE3E1; border:2px solid #D1342F; margin-top:10px; }
 .venn small { color:#4a5a69; display:block; }
+
+/* sidebar team section */
+.team-panel {
+    margin-top: 1.8rem;
+    padding: 14px 16px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 3px solid var(--brand);
+    border-radius: 6px;
+}
+.team-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+.team-icon {
+    font-size: 1.1rem;
+}
+.team-title {
+    font-family: 'Barlow Condensed', sans-serif !important;
+    font-size: 1.1rem !important;
+    font-weight: 700 !important;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: var(--brand) !important;
+}
+.team-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.team-member {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.95rem;
+    color: #E8EEF3 !important;
+    font-weight: 500;
+}
+.team-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(242, 183, 5, 0.18);
+    border: 1px solid var(--brand);
+    color: var(--brand) !important;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
 """
 
 
@@ -141,3 +194,19 @@ def unsafe_vs_deadlock():
 <div class="vs"><b>Safe</b><small>a completion order exists</small></div>
 <div class="vu"><b>Unsafe</b><small>no completion order is guaranteed, but nobody is blocked yet</small>
 <div class="vd"><b>Deadlocked</b><small>a group is stuck right now</small></div></div></div>""", unsafe_allow_html=True)
+
+
+def team_members_sidebar():
+    """Render a neat, professional team members card in the sidebar."""
+    st.markdown("""<div class="team-panel">
+    <div class="team-header">
+        <span class="team-icon">👥</span>
+        <span class="team-title">Team Members</span>
+    </div>
+    <div class="team-list">
+        <div class="team-member"><span class="team-badge">1</span> Ragini Telange</div>
+        <div class="team-member"><span class="team-badge">2</span> Sakshi Pawar</div>
+        <div class="team-member"><span class="team-badge">3</span> Vedangi Patil</div>
+    </div>
+</div>""", unsafe_allow_html=True)
+
