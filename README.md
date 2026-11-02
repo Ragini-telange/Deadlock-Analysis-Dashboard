@@ -1,6 +1,6 @@
 # Deadlock Control Room (OS IA Activity 2)
 
-    <div align="center">
+   
 
 # 🚦 Deadlock Control Room
 
