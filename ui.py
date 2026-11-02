@@ -207,6 +207,7 @@ def team_members_sidebar():
         <div class="team-member"><span class="team-badge">1</span> Ragini Telange</div>
         <div class="team-member"><span class="team-badge">2</span> Sakshi Pawar</div>
         <div class="team-member"><span class="team-badge">3</span> Vedangi Patil</div>
+        <div class="team-member"><span class="team-badge">4</span> Swapnali Kople</div>
     </div>
 </div>""", unsafe_allow_html=True)
 
